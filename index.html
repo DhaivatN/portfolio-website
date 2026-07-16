@@ -2095,14 +2095,7 @@
 
     <div class="hero-portrait" role="img" aria-label="Portrait of Dhaivat Naik">
       <div class="hero-portrait__frame" id="portrait-frame">
-        <!--
-          ── HEADSHOT ─────────────────────────────────────────────
-          Place your photo in the same folder as index.html, then
-          update the src below. Use Live Server in VS Code
-          (right-click → Open with Live Server) so file:// doesn't
-          block local images. Recommended: portrait, ≥560×680px.
-          ─────────────────────────────────────────────────────── -->
-        <img src="img/portfolio.png" alt="Dhaivat Naik" />
+        <img src="files/img/portfolio.png" alt="Dhaivat Naik" />
       </div>
       <div class="hero-portrait__meta">
         <span class="t-mono" style="font-size:0.6rem;">40.4774° N, 74.4605° W</span>
@@ -2720,7 +2713,7 @@ const EXPERIENCE = [
     title: "Administrative Analyst 2 — Information Systems",
     company: "State of New Jersey, Dept. of Community Affairs",
     period: "Jul 2025 — Present",
-    logoSrc: "img/Final LGS Logo_FullColor.png",
+    logoSrc: "files/img/Final LGS Logo_FullColor.png",
     summary: "Building a production data lakehouse to centralize 30M records of municipal budget data spanning 11 fiscal years. The work covers the full stack from storage design and ETL orchestration to governance and reporting infrastructure.",
     highlights: [
       "Architected a medallion lakehouse on Databricks over S3, landing 30M records across a three-tier bronze/silver/gold model",
@@ -2734,7 +2727,7 @@ const EXPERIENCE = [
     title: "Research Data Engineer",
     company: "Rutgers Institute for Health, Healthcare Policy and Aging Research",
     period: "Nov 2023 — Oct 2024",
-    logoSrc: "img/rlg.png", // UPDATE: path to Rutgers logo
+    logoSrc: "files/img/rlg.png", // UPDATE: path to Rutgers logo
     summary: "Maintained streaming ingestion infrastructure processing health research data from over 10 source systems into Azure Data Lake at roughly 1TB per week. Designed patient-centric schemas supporting cross-cohort analytical queries.",
     highlights: [
       "Built and maintained streaming ETL pipelines using Kafka and PySpark ingesting from 10+ heterogeneous source systems",
@@ -2747,7 +2740,7 @@ const EXPERIENCE = [
     title: "Data Engineering Intern",
     company: "SuitUp",
     period: "Jun 2024 — Aug 2024",
-    logoSrc: "img/suitup.webp",  // UPDATE: path to SuitUp logo
+    logoSrc: "files/img/suitup.webp",  // UPDATE: path to SuitUp logo
     summary: "Migrated a legacy batch ingestion system to a Spark Streaming architecture on AWS, processing ~1TB/day of video engagement logs into Redshift with under-5-minute data freshness.",
     highlights: [
       "Built Spark Streaming pipelines on AWS EMR processing ~1TB/day of video engagement events into Redshift",
@@ -2760,7 +2753,7 @@ const EXPERIENCE = [
     title: "Data Scientist",
     company: "SAS Institute",
     period: "Jan 2022 — Jul 2023",
-    logoSrc: "img/SAS_logo_horiz.svg.webp",     // UPDATE: path to SAS Institute logo
+    logoSrc: "files/img/SAS_logo_horiz.svg.webp",     // UPDATE: path to SAS Institute logo
     summary: "Worked on BFSI-focused ML solution delivery, collaborating with solution architects and clients to define technical data architectures and success metrics. Built automated feature pipelines and dashboards on SAS Viya.",
     highlights: [
       "Built automated feature engineering pipelines for BFSI use cases on SAS Viya, supporting model delivery across multiple client engagements",
@@ -2778,14 +2771,14 @@ const CERTIFICATIONS = [
     issuer: "Amazon Web Services",
     status: "Certified",
 
-    badgeUrl: "img/DEA-C01-LOGO.webp",
+    badgeUrl: "files/img/DEA-C01-LOGO.webp",
     year: "2026"
   },
   {
     name: "Databricks Certified Associate Developer for Apache Spark",
     issuer: "Databricks",
     status: "Certified",
-    badgeUrl: "img/specialty-spark-developer-associate-badge.png",
+    badgeUrl: "files/img/specialty-spark-developer-associate-badge.png",
     year: "2026"
   }
 ];
